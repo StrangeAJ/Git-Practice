@@ -50,3 +50,9 @@ git branch -M main
 git branch
 git add .
 git commit -m "Renamed the branch to main :saluting_face:"
+git branch awesome
+git branch
+git branch -d awesome
+git status
+git add .
+git commit -m "Deleted the awesome branch :fire: & making the tree clean :deciduous_tree:"
