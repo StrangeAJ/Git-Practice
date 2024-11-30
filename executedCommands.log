@@ -62,3 +62,10 @@ git commit -m "Switched to main branch ::envelope_with_arrow:"
 git checkout -
 git merge
 git commit -am "Merged conflict incoming :warning:"
+git checkout -b awesome
+git commit -am "updated the README.md"
+git diff
+git merge --abort
+git merge branch
+git add .
+git commit -m "Merged the branch :fire:"
