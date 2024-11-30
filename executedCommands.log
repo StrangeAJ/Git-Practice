@@ -69,3 +69,4 @@ git merge --abort
 git merge branch
 git add .
 git commit -m "Merged the branch :fire:"
+git push 
