@@ -85,3 +85,5 @@ git rm bad.md
 git commmit --amend -am "better commit"
 rm secret.json
 git commit --amend  -a --no-edit
+git log
+git commit -am "Clean tree :palm_tree:"
