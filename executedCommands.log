@@ -29,3 +29,19 @@ git add .
 git commit -m "committing local changes to Github :bookmark: before pulling"
 git pull origin master
 git clone https://github.com/StrangeAJ/IDK.git JUST-CLONED
+git add .
+git commit -m "Merge fixed :grinning_face_with_sweat:"
+git push
+cd JUST-CLONED
+git log
+cd ..
+git log
+cd JUST-CLONED
+echo "This is a new file" >> newFile.txt
+git add .
+git commit -m "Add newFile.txt :tada:"
+git push origin main
+cd ..
+git add .
+git commit -m "Merge fixed and Commiting :warning: before going to start new branches "
+git push
