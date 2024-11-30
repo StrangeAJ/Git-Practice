@@ -77,3 +77,11 @@ git log
 git reset 79b11f83fd716ae1a9c38672a7695aac243da19e
 git log
 git reset --hard 79b11f83fd716ae1a9c38672a7695aac243da19e
+git log
+git revert 75ac47445b9c4cc48016bd8abdd708159ea8da33
+git add bad.md
+git commit -m "bad commit"
+git rm bad.md
+git commmit --amend -am "better commit"
+rm secret.json
+git commit --amend  -a --no-edit
