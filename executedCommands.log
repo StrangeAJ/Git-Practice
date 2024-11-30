@@ -87,3 +87,14 @@ rm secret.json
 git commit --amend  -a --no-edit
 git log
 git commit -am "Clean tree :palm_tree:"
+touch post.md
+echo "This is experimental post. Might add it in a stash for a while" >> post.md
+git add .
+git stash
+git stash pop
+git stash save post1
+git stash list
+git stash apply 0
+git add .
+git commit -m "Preparing for the rebase :military_medal:"
+git checkout -b rebaseBranch
