@@ -45,3 +45,8 @@ cd ..
 git add .
 git commit -m "Merge fixed and Commiting :warning: before going to start new branches "
 git push
+git branch
+git branch -M main
+git branch
+git add .
+git commit -m "Renamed the branch to main :saluting_face:"
