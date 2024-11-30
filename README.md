@@ -10,3 +10,6 @@ This repository is created for learning and practicing Git and Github.
 - Pushing changes to a remote repository
 - Resolving merge conflicts
 - Creating branches
+- Reset
+- Revert
+- Rebase
