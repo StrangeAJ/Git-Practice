@@ -59,3 +59,6 @@ git commit -m "Deleted the awesome branch :fire: & making the tree clean :decidu
 git checkout main
 git add .
 git commit -m "Switched to main branch ::envelope_with_arrow:"
+git checkout -
+git merge
+git commit -am "Merged conflict incoming :warning:"
