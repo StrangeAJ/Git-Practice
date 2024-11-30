@@ -106,3 +106,7 @@ git rebase main
 git rm post.md
 git commit -am "removed the post and Updated the Learnings :broom:"
 git checkout main
+git merge rebaseBranch
+git branch -d rebaseBranch
+git add .
+git commit -m "Merged the rebaseBranch :fire:"
