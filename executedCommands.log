@@ -98,3 +98,7 @@ git stash apply 0
 git add .
 git commit -m "Preparing for the rebase :military_medal:"
 git checkout -b rebaseBranch
+git checkout main
+git add .
+git commit -m "Switched to main branch :envelope_with_arrow: to rebase"
+git chekout rebaseBranch
