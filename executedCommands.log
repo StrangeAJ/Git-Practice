@@ -69,4 +69,11 @@ git merge --abort
 git merge branch
 git add .
 git commit -m "Merged the branch :fire:"
-git push 
+git push
+touch bad.md
+echo "File in bad commit." >> bad.md
+git commit -am "bad commit"
+git log
+git reset 79b11f83fd716ae1a9c38672a7695aac243da19e
+git log
+git reset --hard 79b11f83fd716ae1a9c38672a7695aac243da19e
