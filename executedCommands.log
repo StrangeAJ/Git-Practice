@@ -77,3 +77,6 @@ git log
 git reset 79b11f83fd716ae1a9c38672a7695aac243da19e
 git log
 git reset --hard 79b11f83fd716ae1a9c38672a7695aac243da19e
+git add .
+git commit -m "Added to learn the :fearful_face: revert"
+git commit -am "Added to learn the :fearful_face: revert"
