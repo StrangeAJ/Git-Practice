@@ -24,6 +24,8 @@ git merge origin/master
 git add .
 git commit -m "pushing the changes from local to Github :bookmark:"
 git push origin master -u
+# Made changes from Github
 git add .
 git commit -m "committing local changes to Github :bookmark: before pulling"
 git pull origin master
+git clone https://github.com/StrangeAJ/IDK.git JUST-CLONED
