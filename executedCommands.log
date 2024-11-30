@@ -110,3 +110,9 @@ git merge rebaseBranch
 git branch -d rebaseBranch
 git add .
 git commit -m "Merged the rebaseBranch :fire:"
+git checkout -b squashLearn
+git checkout main
+touch upcommingFeatures.md
+git add .
+echo "This is a new feature that is coming up in the next release" >> upcommingFeatures.md
+git commit -am "Added upcommingFeatures.md :tada:"
