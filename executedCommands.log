@@ -6,3 +6,8 @@ touch secret.json
 echo "secret.json" >> .gitignore
 git add .
 git commit -m "Add secret.json to .gitignore"
+git log
+git remote
+git remote add origin https://github.com/StrangeAJ/Git-Practice.git
+git add .
+git commit -m "Add remote origin :rocket:"
