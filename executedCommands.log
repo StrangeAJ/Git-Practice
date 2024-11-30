@@ -125,3 +125,7 @@ git rebase -i main
 git checkout main
 git commit -am "Updated the Learnings :fire:"
 git merge squashLearn
+git branch -d squashLearn
+git add .
+git commit -m "Last Commit :fire:"
+git push origin main

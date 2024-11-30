@@ -15,3 +15,4 @@ This repository is created for learning and practicing Git and Github.
 - Rebase
 - Stash
 - Squash
+- Github Commands
