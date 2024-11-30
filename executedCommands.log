@@ -116,3 +116,5 @@ touch upcommingFeatures.md
 git add .
 echo "This is a new feature that is coming up in the next release" >> upcommingFeatures.md
 git commit -am "Added upcommingFeatures.md :tada:"
+echo "This is a new feature that is coming up in the next to next release" >> upcommingFeatures.md
+git commit -am "Updated upcommingFeatures.md again :fire:"
