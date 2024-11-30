@@ -2,3 +2,7 @@ git init
 git add .
 git status
 git commit -m "First Commit :tada:"
+touch secret.json
+echo "secret.json" >> .gitignore
+git add .
+git commit -m "Add secret.json to .gitignore"
