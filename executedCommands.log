@@ -57,3 +57,4 @@ git status
 git add .
 git commit -m "Deleted the awesome branch :fire: & making the tree clean :deciduous_tree:"
 git checkout -b awesome
+git commit -am "updated the README.md"
