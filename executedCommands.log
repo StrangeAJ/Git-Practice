@@ -121,3 +121,7 @@ git commit -am "Updated upcommingFeatures.md again :fire:"
 echo "This is a new feature that is coming up soon" >> upcommingFeatures.md
 git commit -am "Updated upcommingFeatures.md again :fire:"
 git checkout squashLearn
+git rebase -i main
+git checkout main
+git commit -am "Updated the Learnings :fire:"
+git merge squashLearn

@@ -13,3 +13,5 @@ This repository is created for learning and practicing Git and Github.
 - Reset
 - Revert
 - Rebase
+- Stash
+- Squash
