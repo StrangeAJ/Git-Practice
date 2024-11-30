@@ -23,3 +23,7 @@ git fetch
 git merge origin/master
 git add .
 git commit -m "pushing the changes from local to Github :bookmark:"
+git push origin master -u
+git add .
+git commit -m "committing local changes to Github :bookmark: before pulling"
+git pull origin master
